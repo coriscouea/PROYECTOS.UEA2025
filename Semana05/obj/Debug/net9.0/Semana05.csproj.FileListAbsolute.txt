@@ -12,3 +12,4 @@ C:\Users\maxxi\OneDrive\Escritorio\UEA\3 Semestre\Esctructura de Datos\PROYECTOS
 C:\Users\maxxi\OneDrive\Escritorio\UEA\3 Semestre\Esctructura de Datos\PROYECTOS.UEA\semana05\obj\Debug\net9.0\Semana05.pdb
 C:\Users\maxxi\OneDrive\Escritorio\UEA\3 Semestre\Esctructura de Datos\PROYECTOS.UEA\semana05\obj\Debug\net9.0\Semana05.genruntimeconfig.cache
 C:\Users\maxxi\OneDrive\Escritorio\UEA\3 Semestre\Esctructura de Datos\PROYECTOS.UEA\semana05\obj\Debug\net9.0\ref\Semana05.dll
+C:\Users\maxxi\OneDrive\Escritorio\UEA\3 Semestre\Esctructura de Datos\PROYECTOS.UEA\Semana05\obj\Debug\net9.0\Semana05.sourcelink.json

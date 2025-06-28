@@ -6,7 +6,7 @@ namespace Semana05
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Ejercicios de Listas y Tuplas\n");
+            Console.WriteLine("Ejercicios de Listas y Tuplas Semana 5\n");
             Console.WriteLine("==============================\n");
 
             Ejercicio1.MostrarAsignaturas();

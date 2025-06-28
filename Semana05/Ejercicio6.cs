@@ -7,7 +7,14 @@ namespace Semana05
     {
         public static void MostrarAsignaturasReprobadas()
         {
-            List<string> asignaturas = new List<string> { "Matemáticas", "Física", "Química", "Historia", "Lengua" };
+            List<string> asignaturas = new List<string>
+            {
+                "Matemáticas",
+                "Física",
+                "Química",
+                "Historia",
+                "Lengua"
+            };
             Dictionary<string, double> notas = new Dictionary<string, double>();
 
             Console.WriteLine("Ejercicio 6:");
