@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana06\\Semana06.csproj": {}
+    "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\semana06\\Semana06.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana06\\Semana06.csproj": {
+    "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\semana06\\Semana06.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana06\\Semana06.csproj",
+        "projectUniqueName": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\semana06\\Semana06.csproj",
         "projectName": "Semana06",
-        "projectPath": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana06\\Semana06.csproj",
+        "projectPath": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\semana06\\Semana06.csproj",
         "packagesPath": "C:\\Users\\maxxi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana06\\obj\\",
+        "outputPath": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\semana06\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maxxi\\AppData\\Roaming\\NuGet\\NuGet.Config"
