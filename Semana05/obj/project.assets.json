@@ -8,23 +8,26 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\maxxi\\.nuget\\packages\\": {}
+    "C:\\Users\\cesar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana05\\Semana05.csproj",
+      "projectUniqueName": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\PROYECTOS.UEA2025\\Semana05\\Semana05.csproj",
       "projectName": "Semana05",
-      "projectPath": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana05\\Semana05.csproj",
-      "packagesPath": "C:\\Users\\maxxi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maxxi\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana05\\obj\\",
+      "projectPath": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\PROYECTOS.UEA2025\\Semana05\\Semana05.csproj",
+      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\PROYECTOS.UEA2025\\Semana05\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maxxi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
@@ -62,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

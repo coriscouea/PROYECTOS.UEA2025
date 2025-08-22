@@ -10,6 +10,7 @@ public static class TorresDeHanoi// Clase para resolver el problema de las Torre
         {
             Console.WriteLine("Número inválido.");
             return;
+            
         }
 
         Stack<int> torreA = new Stack<int>();// Pila para la Torre A
