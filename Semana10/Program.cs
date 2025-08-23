@@ -8,35 +8,28 @@ class ProgramaVacunacion
     {
         // Crear un conjunto de 500 ciudadanos
         HashSet<string> totalCiudadanos = new HashSet<string>();
-
-        // Agregar 500 ciudadanos al conjunto
         for (int i = 1; i <= 500; i++)
-
+        
             totalCiudadanos.Add("Ciudadano:" + i);
 
-        //Crear un conjunto de 75 ciudadanos Vacunados con Pfizer
-        HashSet<string> vacunadosPfizer = new HashSet<string>();
+        // Crear objeto Random
+        Random random = new Random();
 
-        // Agregar 75 ciudadanos vacunados con Pfizer
-        for (int i = 1; i <= 75; i++)
+        // Crear 75 ciudadanos vacunados con Pfizer (aleatorios)
+        HashSet<string> vacunadosPfizer = GenerarVacunados("Ciudadano:", 75, 500, random);
 
-            vacunadosPfizer.Add("Ciudadano:" + i);
+        // Crear 75 ciudadanos vacunados con AstraZeneca (aleatorios)
+        HashSet<string> vacunadosAstraZeneca = GenerarVacunados("Ciudadano:", 75, 500, random);
 
-        // Crear un conjunto de 75 ciudadanos vacunados con AstraZeneca
-        HashSet<string> vacunadosAstraZeneca = new HashSet<string>();
-
-        // Agregar 75 ciudadanos vacunados con AstraZeneca
-        for (int i = 76; i <= 150; i++)
-
-            vacunadosAstraZeneca.Add("Ciudadano:" + i);
-
-
-        //Operaciones con conjuntos 
+        // ================= Operaciones con conjuntos =================
         var noVacunados = new HashSet<string>(totalCiudadanos);
         noVacunados.ExceptWith(vacunadosPfizer.Union(vacunadosAstraZeneca));
 
         var ambosVacunados = new HashSet<string>(vacunadosPfizer);
-        ambosVacunados.UnionWith(vacunadosAstraZeneca);
+        ambosVacunados.IntersectWith(vacunadosAstraZeneca);
+
+        var vacunadosCualquiera = new HashSet<string>(vacunadosPfizer);
+        vacunadosCualquiera.UnionWith(vacunadosAstraZeneca);
 
         var soloPfizer = new HashSet<string>(vacunadosPfizer);
         soloPfizer.ExceptWith(vacunadosAstraZeneca);
@@ -44,16 +37,25 @@ class ProgramaVacunacion
         var soloAstraZeneca = new HashSet<string>(vacunadosAstraZeneca);
         soloAstraZeneca.ExceptWith(vacunadosPfizer);
 
-        //Detalles de la vacunación
+        // ================= Reporte =================
         Console.WriteLine("\n=== Detalles Macro de la vacunación ===");
-        Console.WriteLine($"\nTotal de ciudadanos: {totalCiudadanos.Count}");
+
+        Console.WriteLine("\n====PRIMER CORTE====");
+        Console.WriteLine($"Total de ciudadanos: {totalCiudadanos.Count}");
         Console.WriteLine($"Ciudadanos vacunados con Pfizer: {vacunadosPfizer.Count}");
         Console.WriteLine($"Ciudadanos vacunados con AstraZeneca: {vacunadosAstraZeneca.Count}");
-        Console.WriteLine($"Ciudadanos vacunados con ambas vacunas: {ambosVacunados.Count}");
-        Console.WriteLine($"Ciudadanos no vacunados: {noVacunados.Count}");
 
-        //Resultados por consola
-        Console.WriteLine("\n=== Detalles de la vacunación por ciudadano ===");
+        Console.WriteLine("\n====SEGUNDO CORTE====");
+        Console.WriteLine($"Ciudadanos no vacunados: {noVacunados.Count}");
+        Console.WriteLine($"Ciudadanos vacunados con ambas vacunas: {ambosVacunados.Count}");
+        Console.WriteLine($"Ciudadanos vacunados solo con Pfizer: {soloPfizer.Count}");
+        Console.WriteLine($"Ciudadanos vacunados solo con AstraZeneca: {soloAstraZeneca.Count}");
+
+        Console.WriteLine("\n====TERCER CORTE====");
+        Console.WriteLine($"Ciudadanos vacunados con al menos una vacuna: {vacunadosCualquiera.Count}");
+
+        // Resultados por consola
+        Console.WriteLine("\n=== Detalles de la vacunación por ciudadano ==="); ;
         Console.WriteLine("\n=== Ciudadanos no vacunados ===");
         Console.WriteLine(string.Join(", ", noVacunados));
 
@@ -65,5 +67,19 @@ class ProgramaVacunacion
 
         Console.WriteLine("\n=== Ciudadanos vacunados solo con AstraZeneca ===");
         Console.WriteLine(string.Join(", ", soloAstraZeneca));
-    }            
+
+        Console.WriteLine("\n=== Ciudadanos vacunados con al menos una vacuna ===");
+        Console.WriteLine(string.Join(", ", vacunadosCualquiera));
+        
+    }
+
+    // Método auxiliar para generar vacunados aleatoriamente
+    static HashSet<string> GenerarVacunados(string prefijo, int cantidad, int maximo, Random random)
+    {
+        return Enumerable.Range(1, maximo)
+            .OrderBy(_ => random.Next())
+            .Take(cantidad)
+            .Select(i => prefijo + i)
+            .ToHashSet();
+    }
 }

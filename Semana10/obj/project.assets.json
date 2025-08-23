@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana09\\Semana09.csproj",
-      "projectName": "Semana09",
-      "projectPath": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana09\\Semana09.csproj",
+      "projectUniqueName": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\PROYECTOS.UEA2025\\Semana10\\Semana10.csproj",
+      "projectName": "Semana10",
+      "projectPath": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\PROYECTOS.UEA2025\\Semana10\\Semana10.csproj",
       "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\Semana09\\obj\\",
+      "outputPath": "C:\\Users\\cesar\\OneDrive\\Escritorio\\UEA\\3 Semestre\\Esctructura de Datos\\PROYECTOS.UEA\\PROYECTOS.UEA2025\\Semana10\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
